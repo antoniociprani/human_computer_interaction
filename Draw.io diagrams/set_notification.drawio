@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-06-27T18:01:02.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="1pPPXAgp6s4P-M8zjuSH" version="24.6.1" type="device">
+  <diagram name="Pagina-1" id="GzbVnpT76C-ZIcmX6RsV">
+    <mxGraphModel dx="989" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-1" value="0. set document notification" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="444" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-3" value="1. select the document" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-4" value="2. Fill the document expiration" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="444" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-9" value="3. Save the settings" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="604" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="LwxMLPN20SWtX-hT_mcb-3" target="LwxMLPN20SWtX-hT_mcb-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-36" y="150" as="sourcePoint" />
+            <mxPoint x="14" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="LwxMLPN20SWtX-hT_mcb-4" target="LwxMLPN20SWtX-hT_mcb-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="sourcePoint" />
+            <mxPoint x="464" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="LwxMLPN20SWtX-hT_mcb-9" target="LwxMLPN20SWtX-hT_mcb-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="854" y="220" as="sourcePoint" />
+            <mxPoint x="904" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwxMLPN20SWtX-hT_mcb-36" value="Plan 0: do 1, 2, 3 in order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="604" y="90" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kubg3-BcRodyLzqrsmHO-1" value="2.1 set the expiration date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kubg3-BcRodyLzqrsmHO-2" value="2.2 choose the notification type" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kubg3-BcRodyLzqrsmHO-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="kubg3-BcRodyLzqrsmHO-1" target="LwxMLPN20SWtX-hT_mcb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="440" as="sourcePoint" />
+            <mxPoint x="460" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kubg3-BcRodyLzqrsmHO-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="kubg3-BcRodyLzqrsmHO-2" target="LwxMLPN20SWtX-hT_mcb-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="430" as="sourcePoint" />
+            <mxPoint x="590" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kubg3-BcRodyLzqrsmHO-5" value="Plan 2: do 2.1, 2.2 in any order" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="175" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
