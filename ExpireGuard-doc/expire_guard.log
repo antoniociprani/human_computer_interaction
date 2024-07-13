@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.2)  13 JUL 2024 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.2)  13 JUL 2024 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,56 +805,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
- []
+[11
 
-<../Draw.io diagrams/age_chart.png, id=286, 602.25pt x 372.39125pt>
+]
+<../Draw.io diagrams/age_chart.png, id=293, 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/age_chart.png Graphic file (type png)
 <use ../Draw.io diagrams/age_chart.png>
 Package pdftex.def Info: ../Draw.io diagrams/age_chart.png  used on input line 
-23.
+21.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
-<../Draw.io diagrams/Qual è il tuo genere_.png, id=287, 602.25pt x 372.39125pt
+<../Draw.io diagrams/Qual è il tuo genere_.png, id=294, 602.25pt x 372.39125pt
 >
 File: ../Draw.io diagrams/Qual è il tuo genere_.png Graphic file (type png)
 <use ../Draw.io diagrams/Qual è il tuo genere_.png>
 Package pdftex.def Info: ../Draw.io diagrams/Qual è il tuo genere_.png  used o
-n input line 29.
+n input line 27.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
-<../Draw.io diagrams/Il tuo paese di residenza è in Europa_.png, id=288, 602.2
+<../Draw.io diagrams/Il tuo paese di residenza è in Europa_.png, id=295, 602.2
 5pt x 372.39125pt>
 File: ../Draw.io diagrams/Il tuo paese di residenza è in Europa_.png Graphic f
 ile (type png)
 <use ../Draw.io diagrams/Il tuo paese di residenza è in Europa_.png>
 Package pdftex.def Info: ../Draw.io diagrams/Il tuo paese di residenza è in Eu
-ropa_.png  used on input line 36.
+ropa_.png  used on input line 34.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/Attualmente lavori part-time o a tempo pieno in un paese d
-ella comunità europea_.png, id=289, 602.25pt x 372.39125pt>
+ella comunità europea_.png, id=296, 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/Attualmente lavori part-time o a tempo pieno in un pa
 ese della comunità europea_.png Graphic file (type png)
 <use ../Draw.io diagrams/Attualmente lavori part-time o a tempo pieno in un pae
 se della comunità europea_.png>
 Package pdftex.def Info: ../Draw.io diagrams/Attualmente lavori part-time o a t
-empo pieno in un paese della comunità europea_.png  used on input line 42.
+empo pieno in un paese della comunità europea_.png  used on input line 40.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
-<../Draw.io diagrams/Conteggio di Hai uno smartphone Android o iOS_.png, id=290
+<../Draw.io diagrams/Conteggio di Hai uno smartphone Android o iOS_.png, id=297
 , 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/Conteggio di Hai uno smartphone Android o iOS_.png Gr
 aphic file (type png)
 <use ../Draw.io diagrams/Conteggio di Hai uno smartphone Android o iOS_.png>
 Package pdftex.def Info: ../Draw.io diagrams/Conteggio di Hai uno smartphone An
-droid o iOS_.png  used on input line 48.
+droid o iOS_.png  used on input line 46.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 
 
-[11
+[12
 
-]
-
-[12 <../Draw.io diagrams/age_chart.png> <../Draw.io diagrams/Qual è il tuo gen
-ere_.png>]
+ <../Draw.io diagrams/age_chart.png> <../Draw.io diagrams/Qual è il tuo genere
+_.png>]
 
 [13 <../Draw.io diagrams/Il tuo paese di residenza è in Europa_.png> <../Draw.
 io diagrams/Attualmente lavori part-time o a tempo pieno in un paese della comu
@@ -865,13 +863,13 @@ nità europea_.png>]
 File: ../Draw.io diagrams/default_date.png Graphic file (type png)
 <use ../Draw.io diagrams/default_date.png>
 Package pdftex.def Info: ../Draw.io diagrams/default_date.png  used on input li
-ne 55.
+ne 53.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/application_review.png, id=318, 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/application_review.png Graphic file (type png)
 <use ../Draw.io diagrams/application_review.png>
 Package pdftex.def Info: ../Draw.io diagrams/application_review.png  used on in
-put line 61.
+put line 59.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/how_did_difficult_use_competitors.png, id=319, 602.25pt x 
 372.39125pt>
@@ -879,7 +877,7 @@ File: ../Draw.io diagrams/how_did_difficult_use_competitors.png Graphic file (t
 ype png)
 <use ../Draw.io diagrams/how_did_difficult_use_competitors.png>
 Package pdftex.def Info: ../Draw.io diagrams/how_did_difficult_use_competitors.
-png  used on input line 68.
+png  used on input line 66.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 
 
@@ -893,13 +891,13 @@ png  used on input line 68.
 File: ../Draw.io diagrams/remember_dates.png Graphic file (type png)
 <use ../Draw.io diagrams/remember_dates.png>
 Package pdftex.def Info: ../Draw.io diagrams/remember_dates.png  used on input 
-line 76.
+line 74.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/problems.png, id=332, 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/problems.png Graphic file (type png)
 <use ../Draw.io diagrams/problems.png>
 Package pdftex.def Info: ../Draw.io diagrams/problems.png  used on input line 8
-2.
+0.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/do_you_remember_expiration_dates.png, id=333, 602.25pt x 3
 72.39125pt>
@@ -907,13 +905,13 @@ File: ../Draw.io diagrams/do_you_remember_expiration_dates.png Graphic file (ty
 pe png)
 <use ../Draw.io diagrams/do_you_remember_expiration_dates.png>
 Package pdftex.def Info: ../Draw.io diagrams/do_you_remember_expiration_dates.p
-ng  used on input line 88.
+ng  used on input line 86.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 <../Draw.io diagrams/useresti_app.png, id=334, 602.25pt x 372.39125pt>
 File: ../Draw.io diagrams/useresti_app.png Graphic file (type png)
 <use ../Draw.io diagrams/useresti_app.png>
 Package pdftex.def Info: ../Draw.io diagrams/useresti_app.png  used on input li
-ne 94.
+ne 92.
 (pdftex.def)             Requested size: 362.37569pt x 224.07855pt.
 )
 
@@ -1528,7 +1526,7 @@ live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/t
 ype1/public/cm-super/sfrm1200.pfb>
-Output written on expire_guard.pdf (45 pages, 2095676 bytes).
+Output written on expire_guard.pdf (45 pages, 2095600 bytes).
 PDF statistics:
  610 PDF objects out of 1000 (max. 8388607)
  487 compressed objects within 5 object streams
