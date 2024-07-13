@@ -1,3 +1,203 @@
 \section{Expert Based Evaluation}
+Once the initial prototype is complete, the next step is to conduct an expert-based evaluation. This critical phase aims to identify and resolve issues that emerged during the first implementation. By addressing these problems early, we can ensure that the subsequent user evaluation focuses on other important aspects.\newline\newline
+Expert evaluations help verify whether the system follows established design and usability principles. These principles, guidelines, and standards improve system usability and cover three key aspects:
+\begin{itemize}
+	\item \textbf{Learnability:} How easily a new user can effectively interact with the system and achieve optimal performance.
+	\item \textbf{Flexibility:} The various ways in which users and the system can exchange information.
+	\item \textbf{Robustness:} The level of support provided to users in achieving successful, goal-directed behavior.
+\end{itemize}
+Applying these evaluations ensures that the system meets design and usability standards, making the user evaluation phase more focused and effective.
 \subsection{Cognitive Walkthrough}
+The first expert evaluation we used on our system is the Cognitive Walkthrough (CW). It checks how well the design helps users learn to use the system and achieve their goals. Experts use cognitive psychology to understand the impact of an interaction on a user, the thought processes involved, and potential learning problems that may arise from the design.
+\newline
+The expert needs a prototype of the system, a description of the task, a complete list of actions needed to perform it, and information about the users. For each action, the expert will answer the following questions:
+\begin{itemize}
+	\item Does the action match the user’s goal at that point?
+	\item Will users see that the action is available?
+	\item Once users find the correct action, will they know it’s the one they need?
+	\item After the action is taken, will users understand the feedback they get?
+\end{itemize}
+\clearpage
+
+In our case, the task chosen for evaluation is: \underline{Add a new document from the saved files}. The complete list of actions and responses needed to perform the task is:\newline\newline
+
+Act. 1: Click on the button "+" at the bottom of the screen.\newline
+Resp. 1: Display shows a popup with two options “PDF” and “Camera”.\newline\newline
+Act. 2: Click on the button "PDF" in the popup.\newline
+Resp. 2: Display moves to “Documents” page.\newline\newline
+Act. 3: Click on "Carta\_didentità.pdf" in the displayed PDFs list.\newline
+Resp. 3: Display moves to “Document” page.\newline\newline
+Act. 4: Click on the dropdown list under text “Select type of document”.\newline
+Resp. 4: Dropdown list options displayed.\newline\newline
+Act. 5: Select “ID Card” from the list.\newline
+Resp. 5: “ID Card” selected from the list.\newline\newline
+Act. 6: Click on the text area "Description…" under text “Description”.\newline
+Resp. 6: The keyboard is shown and a flashing cursor appears in the text area.\newline\newline
+Act. 7: Type “Description text test”.\newline
+Resp. 7: In the text area appears text “Description text test”.\newline\newline
+Act. 8: Click on the text area "Personal notes" under text “Personal notes”.\newline
+Resp. 8: The keyboard is shown and a flashing cursor appears in the text area.\newline\newline
+Act. 9: Type “Personal notes about the document”.\newline
+Resp. 9: In the text area appears text “Personal notes about the document”.\newline\newline
+Act. 10: Click on the input field under text “Expiration date”.\newline
+Resp. 10: The calendar is shown.\newline\newline
+Act. 11: Select date 31/07/2024.\newline
+Resp. 11: Date 31/07/2024 is displayed in the input area.\newline\newline
+Act. 12: Click on the button “Next” in the lower right corner of the display.\newline
+Resp. 12: Display moves to “Expiration Settings” page.\newline\newline
+Act. 13: Click on “Push Notification” and “Email” in the multi select list under text
+“Notification Type”.\newline
+Resp. 13: “Push Notification” and “Email” are highlighted in the multiselect.\newline\newline
+Act. 14: Click on the input area under text “When you want to be notified?”\newline
+Resp. 14: The keyboard is shown and a flashing cursor appears in the text area.\newline\newline\newline
+Act. 15: Type “1”.\newline
+Resp. 15: “1” appears in the input area.\newline\newline
+Act. 16: Click on the drop down list under text “When you want to be notified?”.\newline
+Resp. 16: Dropdown list options displayed.\newline\newline
+Act. 17: Select “Month” from the list.\newline
+Resp. 17: “Month” is selected.\newline\newline
+Act. 18: Click on the drop down list under text “How often do you want to be notified?”.\newline
+Resp. 18: Dropdown list options displayed.\newline\newline
+Act. 19: Select “Everyday” from the list.\newline
+Resp. 19: “Everyday” is selected.\newline\newline
+Act. 20: Click on the button “Next” in the lower right corner of the display.\newline
+Resp. 20: Display moves to “Resume” page.\newline\newline
+Act. 21: Click on the button “Add” in the lower center of the display.\newline
+Resp. 21: Display moves to “Document list” page.\newline\newline
+The feedback from the expert revealed some potential problems that needed to be addressed.\newline Below, we will only show the actions that had issues and the related question:\newline\newline
+\underline{Act. 7: Type “Description text test”.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q1} Is the effect of the action the same as the user’s goal at that point? & It is not entirely clear what the user should write. Is it mandatory? Is it the title of the document? Consider adding an example placeholder. \\
+		\hline
+		\textbf{Q3} Once users find the correct action, will they know it is the one they need? & Is it not clear if it is mandatory. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\noindent
+\underline{Act. 9: Type “Personal notes about the document”.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q1} Is the effect of the action the same as the user’s goal at that point? & Same as above + it is not clear if the two fields overlap. \\
+		\hline
+		\textbf{Q3} Once users find the correct action, will they know it is the one they need? & Is it not clear if it is mandatory. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\clearpage
+\noindent
+\underline{Act. 13: Click on “Push Notification” and “Email” in the multi select list under}\newline \underline{text “Notification Type”.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q2} Will users see the action is available? & Yes - although the selection method is not standard for mobile views. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\noindent
+\underline{Act. 17: Select “Month” from the list.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q3} Once users find the correct action, will they know it is the one they need? & The label is not entirely clear. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\noindent
+\underline{Act. 19: Select “Everyday” from the list.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q3} Once users find the correct action, will they know it is the one they need? & The label is not entirely clear. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\noindent
+\underline{Act. 21: Click on the button “Add” in the lower center of the display.}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|}
+		\hline
+		\textbf{Question} & \textbf{Answer} \\
+		\hline
+		\textbf{Q4} After the action is taken, will users understand the feedback they get? & The feedback is not shown in the prototype. \\
+		\hline
+	\end{tabularx}
+\end{table}
 \subsection{Heuristic Evaluation}
+The other expert-based evaluation we used for our system is the heuristic evaluation (HE). In this method, experts identify and test a set of usability criteria to see how well the system meets them. They check if the system's behavior is predictable, if it is consistent, and how feedback is given to the user. This process is like debugging the design and does not require an understanding of the system's goals and purpose, as it only checks these general criteria.\newline
+For our evaluation, the expert performed a HE on Prototype Zero. The possible issues were marked with a "severity" rating, as detailed below:\newline\newline
+\indent
+1 - I don’t agree that this is a usability problem at all\newline
+\indent
+2 - Cosmetic problem only\newline
+\indent
+3 - Minor usability problem\newline
+\indent
+4 - Major usability problem\newline
+\indent
+5 - Usability catastrophe\clearpage\noindent
+The table below shows the violations found in our system, along with their severity ratings:
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+		\hline
+		\textbf{Page} & \textbf{Heuristic\newline violated} & \textbf{Severity(1-5)} & \textbf{Description/\newline comment} \\
+		\hline
+		Home & Visibility of system status & \begin{center} 3 \end{center} & Is it not entirely clear if a filter is applied, and how the documents are organized (e.g.by adding date, by expiration..) \\
+		\hline
+		Home & Match between the system and the real world, Recognition rather than recall & \begin{center} 3 \end{center} & How does the filter work?“From-to” refers to which property of the documents (e.g.expiration date)? \\
+		\hline
+		Home & Visibility of system status & \begin{center} 3 \end{center} & What does the “folder” icon at the bottom stand for? Is it selected? \\
+		\hline
+		Home & Consistency and standards & \begin{center} 2 \end{center} & The “...” icon is usually used in web apps (not mobile) and it usually opens a cascade menu.I suggest you consider alternative more standard icons. \\
+		\hline
+		Add document & Flexibility and efficiency of use & \begin{center} 2 \end{center} & The difference between description and personal notes is not clear, consider merging the two fields. \\
+		\hline
+	\end{tabularx}
+\end{table}
+\begin{table}[H]
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+		\hline
+		\textbf{Page} & \textbf{Heuristic\newline violated} & \textbf{Severity(1-5)} & \textbf{Description/\newline comment} \\
+		\hline
+		Add document & Error prevention & \begin{center} 2 \end{center} & Is it not clear which fields are mandatory. \\
+		\hline
+		Expiration settings & Consistency and standards & \begin{center} 2 \end{center} & The proposed multiple selection input is not standard for mobile views, consider a multiple options check list. \\
+		\hline
+		Expiration settings & Match between system and the real world & \begin{center} 3 \end{center} & The two timing settings labels are not entirely clear - at first, I did not understand what they were referring to. \\
+		\hline
+		Add document & Flexibility and efficiency of use & \begin{center} 2 \end{center} &Same comment as above + Consider if the document name is really necessary, and if yes it should be an editable field in the edit view \\
+		\hline
+		Edit document & Visibility of system status, Error prevention & \begin{center} 3 \end{center} &It is good practice to show the current value of a field while editing it, to be sure the user is aware of what he is modifying. \\
+		\hline
+		Edit document - notification settings & Visibility of system status,Recognition rather than recall & \begin{center} 3 \end{center} &Is this a different page from the “edit document” one? How do you arrive at it? Consider unifying them.\\
+		\hline
+		General comment & Consistency and standards & \begin{center} 1 \end{center} &Page titles are not consistent - they only sometimes reflect the focused feature.\\
+		\hline
+	\end{tabularx}
+\end{table}
+\clearpage
+\subsection{Gatherings}
+The results of both evaluations, the CW and the HE, have underscored the need for several adjustments to refine and improve the prototype we developed. These evaluations identified specific areas where our design could be enhanced to better support user interaction and overall usability.\newline\newline
+Here we will outline some of the key modifications we have implemented based on the feedback from these evaluations. However, a more detailed explanation of all the changes and improvements will be provided in the next section: 
+\begin{itemize}
+	\item The Edit Document metadata page and the Edit Expiration Settings page are merged in a single page to help users avoid errors and facilitate the learning process.
+	\item The fields relative to Document’s Description and Personal Notes are unified to improve the user experience making it more understandable.
+	\item Some labels are changed to improve readability and understanding for new users.
+	\item Improved our choices of input types and buttons to make user interaction with the system a more pleasant experience aimed at mobile devices.
+	\item Added a new editable field relative to the Document’s name called “Name”.
+	\item Improved the user feedback by  adding popups to let users know the result of their actions and made more clear which fields are mandatory during the Adding Document phase. 
+	
+\end{itemize}
+The insights gained from CW and HE have been instrumental in refining our prototype to such an extent that we have now developed an improved version, Prototype One.
