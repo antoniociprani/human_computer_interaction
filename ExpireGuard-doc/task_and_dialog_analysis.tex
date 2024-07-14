@@ -4,6 +4,14 @@ Dialog analysis focuses on the interaction between the user and the system, part
 One of the common techniques used in Human Computer Interaction is \textbf{Hierarchical Task Analysis (HTA)} focuses on decomposing tasks into sub-tasks and operations, creating a structured hierarchy that shows how each component contributes to achieving the overall goal. HTA breaks down tasks into sub-tasks and operations. It provides a clear visualization of the steps users take to achieve their goals, highlighting dependencies and sequences in the workflow. HTA is particularly useful for identifying redundant steps, optimizing processes, and ensuring that the design supports users' natural task flows.\\
 To do this analysis step we also used \textbf{State Transition Network (STN)}, also known as State Transition Diagram or State Machine, which a graphical representation of a system that illustrates the different states a system can be in and how it transitions from one state to another based on user actions or events. It helps to demonstrate the flow of tasks, depicting how the system responds to user actions and transitions from one state to another, thereby facilitating a better understanding of the interaction dynamics and aiding in the optimization of task performance.
 \subsection{Hierarchical Task Analysis (HTA)}
+\subsubsection{Login}
+This task is required to use all features of the application. The user needs to be logged with an authentication service provided by a social newtork (i.e Google, Facebook, etc.)
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{../Draw.io diagrams/login.drawio.png}  % Replace 'example-image' with the filename of your image
+	\caption{HTA for the requirement login}
+\end{figure}
+
 \subsubsection{Set custom notification}
 This task is linked with the view document list and allows to change only the expiration settings without changing the other information of a document. 
 \begin{figure}[H]
@@ -53,7 +61,7 @@ In this section, we will examine the State Transition Network (STN) correspondin
 This diagram covers the necessary steps and different states needed to add a document either from a saved file o scan it using the smartphone camera, add the document metadata, and adjust the expiration settings.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\textwidth]{../Draw.io diagrams/documnet_add_STN.drawio.png}  % Replace 'example-image' with the filename of your image
+	\includegraphics[width=\textwidth]{../Draw.io diagrams/document_add_STN.drawio.png}  % Replace 'example-image' with the filename of your image
 	\caption{STN for add new document}
 \end{figure}
 \subsubsection{Edit document}
