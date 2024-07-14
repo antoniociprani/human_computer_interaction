@@ -1,0 +1,54 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# Editor-specific files
+# VS Code
+.vscode/
+# TeXShop
+*.pdfsync
+# Kile
+*.backup
+*.bak
+# Latexian
+*.latexian
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Other common files
+*.pdf
+*.ps
+*.dvi
+*.fls
+*.fdb_latexmk
+*.synctex(busy)
+*.run.xml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Backup files
+*.bak
+*.bak2
+*.sav
+
